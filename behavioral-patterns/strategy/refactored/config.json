@@ -1,0 +1,14 @@
+{
+  "prod": {
+    "strategy": "toFile"
+  },
+  "staging": {
+    "strategy": "toMorseCode"
+  },
+  "dev": {
+    "strategy": "noDate"
+  },
+  "local": {
+    "strategy": "none"
+  }
+}
